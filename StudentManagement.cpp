@@ -84,8 +84,8 @@ class Student{
 		
 		/* Function to split a string using a char as delimiter.
 		Parameters:
-			- stringToBeSplitted
-			- delimeter:
+			- stringToBeSplitted: original string will be splitted
+			- delimeter: a charater for example '\t'
 		Return an array store substrings which splitted from stringToBeSplitted
 		Reference from https://thispointer.com/how-to-split-a-string-in-c/ */
 		vector<string> split(string stringToBeSplitted, char delimiter){
